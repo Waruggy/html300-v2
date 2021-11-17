@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Header -->
       <div class="row header">
-          <h1>Blissful Farms</h1>
+          <h1>Japan Travel</h1>
       </div>
       <!-- Navbar with routes to other pages -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
