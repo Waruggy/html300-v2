@@ -3,13 +3,7 @@
     <div class="container">
       <!-- Header -->
       <div class="row header">
-          <div class="col">
-          <i class="fa fa-tractor"></i>
-          </div>
-          Blissful Farms
-          <div class="col text-end">
-              <i class="fa fa-tractor"></i>
-          </div>
+          <h1>Blissful Farms</h1>
       </div>
       <!-- Navbar with routes to other pages -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -46,16 +40,16 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
+  color: #fcc9b9;
 }
 // Format nav bar
 #nav {
   padding: 30px;
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #fcc9b9;
     &.router-link-exact-active {
-      color: #42b983;
+      color: red;
     }
   }
 }
