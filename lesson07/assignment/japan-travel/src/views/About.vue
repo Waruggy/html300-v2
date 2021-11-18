@@ -1,3 +1,4 @@
+<template>
 <div class="container">
    <div class="row">
       <!-- Create row with title and two p of text -->
