@@ -3,7 +3,7 @@
    <div class="row">
       <!-- Create row with title and two p of text -->
       <div class="col mt-3">
-          <h1 class="m-3" >How it started</h1>
+          <h1 class="m-3" >Japan</h1>
           <div class="row box-1 bg-light m-3" v-for="msg in text" v-bind:key="msg">
               <p>
                   {{msg}}}
@@ -14,7 +14,7 @@
     <div class="row">
         <!-- Create row with title and two p of text -->
         <div class="col mt-3">
-            <h1 class="m-3" >How we got here</h1>
+            <h1 class="m-3" >Mt Fuji</h1>
             <div class="row box-1 bg-light m-3">
                 <p>
                      {{msgOne}}
@@ -31,7 +31,7 @@
         <div class="row">
             <!-- Create 3 x 1 on medium and above devices, 1 x 3 on devices less than medium.-->
             <div class="col mt-3">
-                <h1 class="m-3" >Where we're going</h1>
+                <h1 class="m-3" >Tokyo</h1>
                 <div class="row bg-light box-2 m-3">
                     <div class="col-md-4"  v-for="msg in textTwo" v-bind:key="msg">
                         <p>
@@ -43,7 +43,7 @@
           </div>
           <!-- Footer -->
         <div class="row bg-light text-middle">
-            &copy 2021 Japan Travel, LLC | Seattle, WA
+          &copy;2021 Japan Travel, LLC | Seattle, WA
         </div>
   </div>
 </div>

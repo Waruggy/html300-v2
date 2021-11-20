@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.header h1 {
+  color: red;
+}
+
 //Format navbar
 .navbar {
   background-color: white;
@@ -20,4 +24,9 @@
 
 .navbar a {
   background-color: red;
+}
+
+//Format Font
+p {
+  color: black;
 }

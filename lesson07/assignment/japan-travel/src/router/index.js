@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '../views/Home.vue'
 import Blog from '../views/Blog.vue'
-import Testimonials from '../views/Prefectures.vue'
+import Prefectures from '../views/Prefectures.vue'
 import About from '../views/About.vue'
 
 

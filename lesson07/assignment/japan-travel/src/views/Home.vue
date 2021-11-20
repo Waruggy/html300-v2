@@ -20,7 +20,7 @@
       </div>
       <!-- Footer -->
       <div class="row bg-light text-center">
-        &copy 2021 Japan Travel, LLC | Seattle, WA
+        &copy;2021 Japan Travel, LLC | Seattle, WA
       </div>
   </div>
 </template>

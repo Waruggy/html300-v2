@@ -1,4 +1,4 @@
-template>
+<template>
   <div class="container">
      <div class="row">
           <!-- Image with text -->
@@ -15,7 +15,7 @@ template>
       </div>
       <!-- Footer -->
       <div class="row bg-light text-middle">
-          &copy 2021 Japan Travel, LLC | Seattle, WA
+          &copy;2021 Japan Travel, LLC | Seattle, WA
       </div>
   </div>
 </template>
@@ -26,15 +26,9 @@ export default {
     name: 'pageData',
     data () {
         return {
-            images: [ require('../assets/mtfuji.jpg'),  require('../assets/mtfuji.jpg') ],
+            images: [ require('../assets/mtfuji.jpg'),  require('../assets/tokyo.jpg') ],
             msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         }
-    },
-    name: 'pageDataTwo',
-    data () {
-    return {
-        images: [ require('../assets/tokyo.jpg'),  require('../assets/tokyo.jpg') ],
-        msg: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     }
 }
 </script>

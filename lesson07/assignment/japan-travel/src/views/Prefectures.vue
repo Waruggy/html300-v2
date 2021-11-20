@@ -31,7 +31,7 @@
     </div>
     <!-- Button that when pressed displays an input text for -->
     <div class="m-3" v-if="show">
-    <button type="button" name="button" v-on:click="show = !show"> Add Your Story</button>
+    <button type="button" name="button" v-on:click="show = !show"> Add Your Comment</button>
     </div>
     <div class="accordion-item" v-else>
       <button type="button" name="button" v-on:click="show = !show"> Submit </button>
@@ -39,7 +39,7 @@
       </div>
       <!-- Footer -->
       <div class="row bg-light text-center">
-      @copy 2021 Japan Travel, LLC | Seattle, WA
+       &copy;2021 Japan Travel, LLC | Seattle, WA
     </div>
   </div>
 </template>
