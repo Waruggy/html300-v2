@@ -19,7 +19,6 @@
 <script>
 // Import clickToggle function
 import clickToggle from '../mixins/clickToggle'
-let bool = true
 // Store page content
 export default {
     mixins: [clickToggle],
